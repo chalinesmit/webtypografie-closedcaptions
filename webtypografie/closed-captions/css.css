@@ -1,0 +1,780 @@
+body {
+    text-align: center;
+}
+
+#closed-captions {
+    display: flex;
+    justify-content: center;
+}
+
+#closed-captions p {
+    opacity: 0;
+    transition: .05s;
+    position: absolute;
+}
+
+#closed-captions .on {
+    opacity: 1;
+}
+
+#closed-captions .off {
+    transition: .2s;
+    opacity: 0;
+}
+
+.voice1 {
+    font-family: monospace;
+    font-size: 18px;
+    color: darkblue;
+    background: white;
+}
+
+.voice2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: cornflowerblue;
+    background: white;
+
+}
+
+.voice3 {
+    font-family: serif;
+    font-size: 18px;
+    color: green;
+    background: white;
+}
+
+.voice4 {
+    font-style: italic;
+    font-family: fantasy;
+    font-size: 18px;
+    color: red;
+    background: white;
+}
+
+
+.p0.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p1.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p2.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p3.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p4.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p5.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p6.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p7.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p8.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p9.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p10.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p11.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p12.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p13.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p14.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p15.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p16.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p17.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p18.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p19.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p20.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p21.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p22.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p23.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p24.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p25.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p26.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p27.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p28.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p29.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p30.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p31.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p32.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p33.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p34.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p35.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p36.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+
+.p37.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+
+.p38.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p39.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p40.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p41.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p42.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p43.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p44.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p45.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p46.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p47.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p48.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p49.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p50.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p51.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p52.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p53.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p54.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p55.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p56.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p57.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p58.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p59.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p60.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p61.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p62.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p63.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p64.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p65.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p66.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p67.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p68.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p69.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p70.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p71.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p72.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p73.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p74.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p75.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p76.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p77.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p78.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+.p79.on span:first-of-type {
+    opacity: 1;
+    transition: 0s;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: black;
+}
+
+/* **********************************************
+Sounds.
+	You can style the whole body, or you can 
+	style anything within the body the moment
+	a sound starts.
+*********************************************  */
+
+iframe {
+    transition: 1s;
+}
+
+.sound0 {
+    background-image: url(gif.gif);
+}
+
+.sound1 {
+    background-image: url(gif1.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sound1 iframe {
+    transform: skewY(1turn);
+}
+
+
+.sound2 {
+    background-image: url(gif5.gif);
+}
+
+.sound2 iframe {
+    transform: skewY(1turn);
+}
+
+.sound3 {
+    background-image: url(gif6.gif);
+}
+
+
+.sound4 {
+    background-image: url(gif3.gif);
+}
+
+
+.sound5 {
+    background-image: url(gif7.gif);
+}
+
+.sound6 {
+    background-image: url(gif1.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sound6 iframe {
+    transform: skewY(1turn);
+}
+
+.sound7 {
+    background-image: url(gif10.gif);
+    transition: 1s ease;
+
+}
+
+.sound8 {
+    background-image: url(gif8.gif);
+    transition: 1s ease;
+}
+
+.sound10 {
+    background: black;
+}
+
+.sound11 {
+    background-image: url(gif13.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: 1s ease;
+}
+
+.sound12 {
+    background: black;
+}
